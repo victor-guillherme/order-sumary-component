@@ -1,6 +1,6 @@
 html {
     font-size: 62.5%;
-   background-color: hsl(225, 100%, 94%); 
+    background-color: hsl(225, 100%, 94%); 
 }
 
 body {
@@ -58,3 +58,17 @@ body {
 .plano-anual div .info-plano .valor{
     text-align: start;
 }
+
+.hero .btn {
+    width: 25rem;
+    height: 4.5rem;
+    border-radius: 1rem;
+    margin: 0 auto;
+    color: aliceblue;
+    background-color:  hsl(245, 75%, 52%);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
