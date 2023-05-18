@@ -29,13 +29,21 @@ body {
     border-radius: .8rem .8rem 0 0;
 }
 
+.hero .titulo {
+    font-weight: 900;
+}
+
 .hero .descricao {
-    width: 60%;
+    font-size: 1.3rem;
+    color: hsl(224, 23%, 55%);
+    line-height: 2rem;
+    width: 80%;
+    font-weight: 500;
     margin: 0 auto;
 }
 
 .plano-anual {
-    background-color: hsl(225, 100%, 94%);
+    background-color: hsl(230, 23%, 95%);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,6 +51,29 @@ body {
     width: 25rem;
     margin: 0 auto;
     border-radius: 1rem;
+}
+
+.plano-anual .nota-musical {
+    width: 40px;
+    margin: .9rem 1.1rem;
+}
+
+.plano-anual h2 {
+    font-size: 1.4rem;
+    font-weight: 900;
+    line-height: 2.1rem;
+}
+
+.plano-anual h2 .valor {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+.plano-anual .change {
+    font-weight: 900;
+    font-size: 1.1rem;
+    margin-right: 10px;
 }
 
 .plano-anual div {
@@ -61,14 +92,24 @@ body {
 
 .hero .btn {
     width: 25rem;
-    height: 4.5rem;
+    height: 4rem;
     border-radius: 1rem;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 0.2);
     margin: 0 auto;
     color: aliceblue;
     background-color:  hsl(245, 75%, 52%);
     text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 700;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.hero .btn-cancel {
+    font-weight: 900;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color:hsl(224, 23%, 55%);
+    margin-bottom: 10%;
+}
